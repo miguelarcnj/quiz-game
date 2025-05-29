@@ -42,3 +42,15 @@ body{
  padding: 30PX 20PX 30PX 20PX;
  margin: 0 auto;
 }
+
+.botao-responder{
+  background: white;
+  padding: 10px 30px 10px 30px;
+  font-size: 50x;
+  border: none;
+  margin-top: 20px;
+}
+
+.botao-responder:active{
+  background: lightgray;
+}
