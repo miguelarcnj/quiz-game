@@ -23,8 +23,22 @@ body{
   padding: 10px 20px 10px 20px;
 }
 
-.tela-pergunta{
+.tela-pergunta {
   width: 100%;
   height: 100vh;
   background: mediumpurple;
+  text-align: center;
+}
+.cerebro{
+ width: 50%;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ 
+}
+.pergunta {
+ background: white;
+ width: 70%;
+ font-size: 30PX;
+ padding: 30PX 20PX 30PX 20PX;
+ margin: 0 auto;
 }
