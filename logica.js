@@ -1,7 +1,7 @@
 listaPerguntas = [
     
     {
-        pergunta: "Qual o maior ser vivo?",
+        pergunta: "Qual o maior ser vivo do mundo?",
         opcoes: [
             "baleia azul",
             "fungo de mel",
@@ -46,7 +46,29 @@ function iniciarJogo() {
 }
 
 function mostrarPergunta(){
-    pergunta = listaPerguntas[0]
-    
-    console.log(pergunta)
+    objPergunta = listaPerguntas[0]
+
+    textoPergunta = document.createTextNode(objPergunta.pergunta);
+    divPergunta = document.querySelector(".pergunta");
+    divPergunta.appendChild(textoPergunta);
+
+    txtOpcao1 = document.createTextNode(objPergunta.opcoes[0]);
+    botao0 = document.querySelector(".opcao0");
+    botao0.appendChild(txtOpcao1);
+
+
+    txtOpcao2 = document.createTextNode(objPergunta.opcoes[1]);
+    botao1 = document.querySelector(".opcao1");
+    botao1.appendChild(txtOpcao2);
+
+
+    txtOpcao3 = document.createTextNode(objPergunta.opcoes[2]);
+    botao2 = document.querySelector(".opcao2");
+    botao2.appendChild(txtOpcao3);
+
+
+    txtOpcao4 = document.createTextNode(objPergunta.opcoes[3]);
+    botao3 = document.querySelector(".opcao3");
+    botao3.appendChild(txtOpcao4);
+
 }
