@@ -75,5 +75,14 @@ body{
 .errou{
   width:80%;
   margin-top: 20%;
-  
+}
+.tela-final {
+  width: 100%;
+  height:100vh;
+  background: mediumpurple;
+  text-align: center;
+}
+.final{
+   width:80%;
+  margin-top: 20%;
 }
